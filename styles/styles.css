@@ -225,3 +225,29 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+html {
+  font-family: "Petit Formal Script", cursive;
+  font-size: 125%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  background-color: #815600;
+  height: 100vh;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

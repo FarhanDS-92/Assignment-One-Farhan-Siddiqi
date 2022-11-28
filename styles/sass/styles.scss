@@ -1,2 +1,36 @@
 @use './partials/setup' ; 
 @use './partials/variables' as *;
+
+
+// font-family: 'Petit Formal Script', cursive;
+    
+// font-family: 'Roboto', sans-serif;
+
+
+// Adding In our fonts and root sizing 
+html {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 125%;
+    color: $fontColor;
+    display: flex;
+}
+
+// setting up wrapper
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+// Header section
+header {
+    background-color: $primaryColor;
+    height: 100vh;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
