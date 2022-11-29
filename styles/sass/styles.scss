@@ -28,9 +28,20 @@ header {
     height: 100vh;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+nav {
+    ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li {
+        margin-right: 20px;
+    }
 }
+
+h1 {
+    font-size: 90px;
+}
+
 
